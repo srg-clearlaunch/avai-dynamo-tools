@@ -2,8 +2,7 @@
 
 ## drop-table-restore-schema
 
-Drops Dynamo DB table and restores from same schema
-
+Drops Dynamo DB table and restores schema only
 Usage:
 
 ```

@@ -4,7 +4,7 @@ var async = require('async');
 var argv = utils.config({
     demand: ['table'],
     optional: ['key', 'secret'],
-    usage: 'Drops Dynamo DB table and restores from same schema\n' +
+    usage: 'Drops Dynamo DB table and restores schema only\n' +
     'Usage: drop-table-restore-schema --table my-table [--key AK...AA] [--secret 7a...IG]'
 });
 
