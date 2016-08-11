@@ -10,7 +10,7 @@ var argv = utils.config({
     demand: ['table'],
     optional: ['key', 'secret'],
     usage: 'Drops Dynamo DB table and restores schema only\n' +
-    'Usage: get-schema --table my-table [--key AK...AA] [--secret 7a...IG]'
+    'Usage: dynamo-tools --table my-table [--key AK...AA] [--secret 7a...IG]'
 });
 var jsonfile = require('jsonfile');
 var dynamo = utils.dynamo(argv);
